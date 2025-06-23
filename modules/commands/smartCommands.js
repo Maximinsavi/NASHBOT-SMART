@@ -521,11 +521,11 @@ async function handleAIQuery(api, event, body, threadID, messageID) {
 }
 
 function handleContact(api, threadID, messageID) {
-    const contactContent = `👨‍💻 Developers: Joshua Apostol | Cyril Encenso
-📧 Email: joshuaapostol909@gmail.com || Amigohaycyril10@gmail.com
-📱 Facebook: https://www.facebook.com/joshuaapostol2006 || https://www.facebook.com/cyypookie
-🌐 Website: joshua-portfolio.com
-💻 GitHub: https://github.com/joshuaApos || https://github.com/atsushinakajima14
+    const contactContent = `👨‍💻 Developer : MAXIMIN SAVI || Thibaut Savi 
+📧 Email: Maximinsavi@gmail.com ||Maximinsavi2@gmail.com
+📱 Facebook: https://www.facebook.com/MaximinSavi229 || https://www.facebook.com/profile.php?id=61575274803599
+🌐 Website: Maxchat.wapkizs.com
+💻 GitHub: https://github.com/maximinsavi || https://github.com/thibautsavi
 
 💬 For support or inquiries, feel free to reach out!`;
 
@@ -861,7 +861,7 @@ function handleHelp(api, threadID, messageID, prefix) {
    • "Show me a funny video"
    • "Download this Facebook video [URL]"`;
 
-    const helpMessage = design("🤖 NASHBOT - COMPREHENSIVE GUIDE", helpContent);
+    const helpMessage = design("🤖 MAXIMIN - COMPREHENSIVE GUIDE", helpContent);
 
     const imagePath = './nashbot.png';
 
